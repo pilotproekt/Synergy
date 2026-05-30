@@ -1,0 +1,5 @@
+n1 = list(map(int, input().split()))
+n2 = list(map(int, input().split()))
+a1 = set(n1)
+a2 = set(n2)
+print (len(a1.union(a2)))
